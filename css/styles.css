@@ -1,0 +1,252 @@
+/* 
+цвет основного текст: #212121;
+вторичный цвет текста: #757575;
+цвет акцента: #2196F3;
+белый: #FFFFFF
+основной цвет фона: #E5E5E5;
+вторичный цвет фона #F5F4FA; 
+*/
+:root { 
+    --primary-text-color: #212121;
+    --tltle-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --bacground-black-color: #2F303A;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    list-style: none;
+}
+
+.title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+}
+.list, 
+.link {
+    text-decoration: none;
+    list-style: none;
+}
+/* ================= Шапка сайта ================= */
+/* ================= Логотип ================= */
+.site-header {
+    background-color: var(--primary-white-color);
+}
+.logo { 
+    color: var(--primary-text-color);
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+        list-style: none;
+        
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+/* ================= END Логотип ================= */
+
+/* ================= навигация сайта и контакты ================= */
+
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link,
+.contacts-list .link{
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.site-header .link:hover,
+.site-header .link:focus {
+    color: var(--accent-color);
+}
+/* ================= END навигация сайта и контакты ================= */
+
+/* ================= END Шапка сайта ================= */
+
+/* ================= Герой ================= */
+
+.hero {
+    background-color: var(--bacground-black-color);
+    color: var(--primary-white-color);  
+    text-align: center;
+}
+.hero-title {   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-link {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        
+}
+
+
+.hero-link {
+    text-decoration: none;
+}
+
+/* ================= END Герой ================= */
+
+/* ================= преимущества================= */
+
+.advantage-title {  
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+}
+
+.advantage-description {  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--tltle-text-color);
+}
+/* ================= END преимущества================= */
+
+
+/* ================= Кто работает================= */
+
+
+.workers {
+    background-color: #F5F4FA;
+}
+
+
+.workers-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19; 
+}
+
+.workers-position {
+    color: var(--tltle-text-color);
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+}
+
+/* ================= END Кто работает================= */
+
+
+/* =================футер================= */
+
+.footer {
+    background-color: var(--bacground-black-color);
+}
+
+.footer .logo {
+    color: var(--primary-white-color);
+}
+.footer .list {
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        font-style: normal;
+      
+}
+.adress {
+    color: var(--primary-white-color);
+}
+
+/* ================= END футер================= */
+
+
+/* ================= portfolio.html================= */
+
+/* ================= Наши работы================= */
+
+.work-list {
+    background-color: var(--primary-white-color);
+}
+
+
+/* ================= Список кнопок================= */
+
+
+.button {
+    font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+}
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* ================= END Список кнопок================= */
+
+
+/* =================Примеры работ в портфолио================= */
+
+
+.work-header {
+    color: var(--primary-text-color);
+   
+    font-family: Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.work-paragrapf {
+    color: var(--tltle-text-color);
+
+    font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+}
+.work-doublepar {
+color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+    } 
+
+
+        /* ================= END Примеры работ в портфолио================= */
+        /* ================= END Наши работы================= */
+
+    
+
