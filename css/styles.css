@@ -121,6 +121,7 @@ h1,h2,h3,h4,h5,h6, ul, li, button, p {
 
 .contacts-list {
     display: flex;
+    margin-left: auto;
 }
 
 .site-nav .link,
@@ -243,7 +244,7 @@ h1,h2,h3,h4,h5,h6, ul, li, button, p {
     margin-bottom: 50px;
 }
 
-.list .item:not(:last-child) {
+.work .item:not(:last-child) {
     margin-right: 30px;
 }
 
