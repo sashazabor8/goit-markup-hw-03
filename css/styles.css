@@ -464,6 +464,7 @@ h1,h2,h3,h4,h5,h6, ul, li, button, p {
     display: block;
 }
 
+
 .portfolio-item:not(:nth-child(3n + 3)) {
     margin-right: 30px;
 }
